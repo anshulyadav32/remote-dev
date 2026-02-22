@@ -30,7 +30,7 @@ const authLimiter = rateLimit({
 app.get("/api/health", (req, res) => {
   res.json({
     status: "ok",
-    name: "pc-remote backend",
+    name: "remote-backend",
     version: "1.0.0",
     uptime: process.uptime(),
   });
@@ -50,7 +50,7 @@ const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
   console.log(`
   ╔══════════════════════════════════════╗
-  ║     pc-remote backend server         ║
+  ║       Remote backend server          ║
   ║                                      ║
   ║  REST API : http://localhost:${PORT}    ║
   ║  WebSocket: ws://localhost:${PORT}/ws   ║
