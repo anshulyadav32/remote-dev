@@ -1,0 +1,12 @@
+[submodule "kdeconnect-kde"]
+	path = kdeconnect-kde
+	url = https://github.com/anshulyadav32/pc-remote.git
+[submodule "kdeconnect-android"]
+	path = kdeconnect-android
+	url = https://github.com/KDE/kdeconnect-android.git
+[submodule "kdeconnect-ios"]
+	path = kdeconnect-ios
+	url = https://invent.kde.org/network/kdeconnect-ios.git
+[submodule "kde-linux"]
+	path = kde-linux
+	url = https://github.com/KDE/kde-linux.git
