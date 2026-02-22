@@ -1,0 +1,25 @@
+{
+  "name": "pc-remote-backend",
+  "version": "1.0.0",
+  "description": "pc-remote backend server with auth and WebSocket remote control",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "ws": "^8.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "uuid": "^10.0.0",
+    "helmet": "^8.0.0",
+    "express-rate-limit": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
